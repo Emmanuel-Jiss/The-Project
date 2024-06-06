@@ -16,16 +16,16 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #364652;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: ##70A0AF;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #F9A03F;
 }
