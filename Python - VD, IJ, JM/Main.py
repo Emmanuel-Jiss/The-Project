@@ -6,3 +6,5 @@ def submit_booking(email, pitch, start, end, amenities)
     Booking.append(start)
     Booking.append(end)
     Booking.append(amenities)
+
+print(booking)
