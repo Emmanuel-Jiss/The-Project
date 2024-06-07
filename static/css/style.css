@@ -220,3 +220,15 @@ input:focus {
     border: 1px solid #00aaff;
     background-color: grey;
 }
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FAFAFA;
+    border-style: solid;
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
