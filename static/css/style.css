@@ -232,3 +232,9 @@ input:focus {
     border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
 }
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
