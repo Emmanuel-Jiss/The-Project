@@ -1,8 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Booking</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
     <meta name="wineport" content="width=device-width, initial-scale=1">
     <title>Home</title>
 
@@ -11,17 +12,21 @@
 
 </head>
 <body>
+    <ul>
+      <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+      <li><a href="{{ url_for('booking') }}">Booking</a></li>
+      <li><a href="{{ url_for('contact') }}">Contact</a></li>
+      <li><a href="{{ url_for('about') }}">About</a></li>
+      <li><a href="{{ url_for('account') }}">Account</a></li>
+    </ul>
+<div class="card">
 
-<ul>
-  <li><a class="active" href="/templates/home.html">Home</a></li>
-  <li><a href="{{ url_for('booking.html') }}">Booking</a></li>
-  <li><a href="/templates/contact.html">Contact</a></li>
-  <li><a href="/templates/about.html">About</a></li>
-  <li><a href="/templates/account.html">Account</a></li>
-</ul>
+<div class="container">
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<form>
+<label for="name">Name</label>
+
+<input type="text" id="name" name="name" required><br>
 
 <!-- Slideshow container -->
 <div class="slideshow-container">

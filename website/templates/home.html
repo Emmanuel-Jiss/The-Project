@@ -1,11 +1,13 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Booking</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <meta name="wineport lodge" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+
+   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <script src="/static/scripts/script.js"></script>
+
 </head>
 <body>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +24,13 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+<ul>
+  <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+  <li><a href="{{ url_for('booking') }}">Booking</a></li>
+  <li><a href="{{ url_for('contact') }}">Contact</a></li>
+  <li><a href="{{ url_for('about') }}">About</a></li>
+  <li><a href="{{ url_for('account') }}">Account</a></li>
+</ul>
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
