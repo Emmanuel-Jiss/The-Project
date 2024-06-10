@@ -119,7 +119,7 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: auto;
+  max-width: 1000;
   position: relative;
   margin: auto;
 }
@@ -127,6 +127,10 @@ p {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Next & previous buttons */
