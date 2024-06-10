@@ -17,6 +17,15 @@ def booking():
 def contact():
     return render_template('contact.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
+
+@app.route('/account')
+def acount():
+    return render_template('account.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
