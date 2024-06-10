@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, template_folder='website/templates', static_folder='website/static')
+
 
 @app.route('/')
 def index():
@@ -16,6 +17,7 @@ def booking():
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
+
 
 @app.route('/about')
 def about():
