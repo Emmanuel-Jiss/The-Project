@@ -20,11 +20,11 @@
     <body>
 
         <ul>
-          <li><a class="active" href="/templates/home.html">Home</a></li>
+          <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
           <li><a href="{{ url_for('booking') }}">Booking</a></li>
-          <li><a href="/templates/contact.html">Contact</a></li>
-          <li><a href="/templates/about.html">About</a></li>
-          <li><a href="/templates/account.html">Account</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+          <li><a href="{{ url_for('account') }}">Account</a></li>
         </ul>
 
         <h1>About us</h1>

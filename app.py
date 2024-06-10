@@ -23,7 +23,7 @@ def about():
 
 
 @app.route('/account')
-def acount():
+def account():
     return render_template('account.html')
 
 
