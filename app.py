@@ -21,9 +21,3 @@ class Item(db.Model):
 @app.route('/')
 def booking():
     return render_template('booking.html')
-
-@app.route('/booking', methods=['GET', 'POST'])
-def submit_booking():
-
-
-print(booking)
