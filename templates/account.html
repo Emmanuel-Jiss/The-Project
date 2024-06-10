@@ -2,8 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Account</title>
+    <title>Account login/sign up</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <form>
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="username">username</label>
+    <input type="name" id="username" name="username" required><br>
+
+    <label for="phone number">phone number</label>
+    <input type="phone number" id="phone number" name="phone number" required><br>
+
+    <label for="password">password</label>
+    <input type="password" id="password" name="password" required><br>
+
+    <button type="submit" class="button-group" id="submit_booking">Submit</button>
+        <style>
+body {
+  background-image: url('https://crokepark.ie/BlankSite/media/optimised/Stadium/Stadium%20Technology/Pitch/Technology-Pitch-Main-Image.jpg?ext=.jpg');
+}
+</style>
+</form>
 </head>
 <body>
 
