@@ -15,7 +15,7 @@ db = SQLAlchemy(app)
 
 
 class Item(db.Model):
-    __tablename__ = 'list_table'
+    __tablename__ = 'boooking'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100))
 
