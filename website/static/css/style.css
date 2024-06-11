@@ -1,5 +1,5 @@
 body {
-    background-image: url("{{ url_for('static', filename='/media/madrid-santiago.jpg') }}");
+    background-color: ##fffbfe;
     margin: 0;
     padding: 0;
     background-size: cover;
