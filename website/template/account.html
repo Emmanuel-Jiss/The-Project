@@ -5,6 +5,11 @@
     <title>Account login/sign up</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
 </head>
+        <style>
+            body {
+                background-image: url("{{ url_for('static', filename='/media/download.jpg') }}")
+            }
+        </style>
 <body class="account-page">
     <ul>
         <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
@@ -27,12 +32,18 @@
         <input type="password2" id="password2" name="password2" required><br>
 
         <button type="submit" class="button-group" id="submit_account">Submit</button>
-        <style>
-            body {
-                background-image: url("{{ url_for('static', filename='/media/download.jpg') }}")
-            }
-        </style>
     </form>
+            <form>
+            <div class="inputBox">
+                <input type="email" name="email" value="">
+                <label>Username</label>
+            </div>
+            <div class="inputBox">
+                    <input type="text" name="text" value="">
+                    <label>Password</label>
+                </div>
+            <input type="submit" name="sign-in" value="Sign In">
+        </form>
 <body>
 
 </body>
