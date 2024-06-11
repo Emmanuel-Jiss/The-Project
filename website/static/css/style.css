@@ -1,5 +1,9 @@
 body {
     background-color: ##fffbfe;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -170,13 +174,6 @@ label {
   font-weight: 400;
   font-style: normal;
 }
-
- body {
-                margin: 0;
-                padding: 0;
-                background-size: cover;
-                font-family: sans-serif;
-              }
 
               .box {
                 background-color:#FAFAFA;
