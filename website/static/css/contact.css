@@ -1,169 +1,154 @@
-<link rel="contact.css" href="contact.html">
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* contact.css */
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
 }
 
-/* Header styles */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #333;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a, ul li img {
+    display: block;
     color: white;
-    height: 4rem;
-}
-
-.logo {
-    font-size: 2rem;
-    }
-
-nav {
-    width: 30rem;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav ul li a {
-    font-size: 1.2rem;
-    padding: 1rem;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: white;
 }
 
-nav ul li a:hover {
-    background-color: #0dac30;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    }
-.reachUs-button {
-    padding: 1rem;
-    background-color: #0dac30;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.reachUs-button:hover{
-    background-color: #1ac840;
+ul li img {
+    height: 30px;
+    width: auto;
+    padding: 5px 10px;
 }
 
-/* banner section styles */
+ul li a:hover {
+    background-color: #111;
+}
+
+ul li a.active {
+    background-color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
 .banner {
     text-align: center;
-    background-color: #ffffff;
-    margin: 0 auto;
-    }
+    padding: 50px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
 
 .banner img {
     max-width: 100%;
     height: auto;
 }
-/* Contact form styles */
-.contact-form {
-    padding: 40px 0;
-    margin: 0 10px;
+
+.banner h1 {
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.contact-form, .contact-info, .social-media {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-container {
-    max-width: 40%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
 }
 
-.form-group {
+.form-container h2 {
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .form-container label {
-    display:block;
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
 }
-.form-container input, textarea{
+
+.form-container input, .form-container textarea {
     width: 100%;
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    resize: vertical;
-    }
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 .submit-button {
-    padding: 10px 20px;
-    background-color: #0dac30;
+    width: 100%;
+    padding: 10px;
     border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
     color: white;
-    border-radius: 4px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
 }
 
-/* Contact info styles */
-.contact-info {
-}
- text-align: center;
-    padding: 50px 0;
-    background-color: #f7f7f7;
+.submit-button:hover {
+    background-color: #45a049;
 }
 
-.contact-info h2 {
+.contact-info h2, .social-media h2 {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-/* Footer styles */
-footer {
-    padding: 20px;
+.contact-info address {
+    font-style: normal;
+    line-height: 1.6;
     text-align: center;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
     background-color: #333;
     color: white;
+    margin-top: 20px;
 }
-/* Hamburger styles */
-.hamburger {
-    display: none;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
-    .logo {
-        display: none;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    #nav-menu {
-        position: absolute;
-        top: 4rem;
-        left: 0;
-        background-color: #333;
-        width: 100%;
-        display: none;
-    }
-
-    #nav-menu.active {
-        display: block;
-        flex-direction: row;
-        padding: 1rem;
-        }
-    }
