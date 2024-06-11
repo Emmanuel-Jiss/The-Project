@@ -1,38 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
-<ul>
-  <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
-  <li><a href="{{ url_for('booking') }}">Booking</a></li>
-  <li><a href="{{ url_for('contact') }}">Contact</a></li>
-  <li><a href="{{ url_for('about') }}">About</a></li>
-  <li><a href="{{ url_for('account') }}">Account</a></li>
-</ul>
-   <div class="container">
-       <hl> connect with us ! <font></h2>​ <hl></hl>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebaseapp.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    <body>
+        <ul>
+          <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{ url_for('booking') }}">Booking</a></li>
+          <li><a href="{{ url_for('contact') }}">Contact</a></li>
+          <li><a href="{{ url_for('about') }}">About</a></li>
+          <li><a href="{{ url_for('account') }}">Account</a></li>
+        </ul>
+
+    <div class="container">
+       <h2> connect with us ! </h2>
        <p>feel free to get in touch with us! </p>
        <p>email: example@gmail.com</p>
        <p>phone:087 543 6756</p>
        <p>Adress:308 Negra Arroyo Lane, Albuquerque, New Mexio</p>
    </div>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebaseapp.js"></script>"                   ​
 
-<script type="text/javascript" src="script.js"></script>"<div class="card">​
+<div class="card">
 
-​
-
-
-
-</body>
-</html>
-<div class="card">​
-
-         <div class="container" id="social-container">​
+    <div class="container" id="social-container"></div>
 
 <h2 id="social">Social Media</h2>​
 
@@ -42,9 +35,6 @@
 
 <a href="#" target="_blank" class="fa fa-snapchat-ghost"></a>         ​
 
-         </div>  ​
-
-</div>
 <div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: center;"><a href="https://Nexus" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:53px;height:53px;padding:2px;margin:5px;color:#f7f9fa;border-radius:35%;background-color:#0d2744;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-donate="true" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Facebook social icon</title>
     <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
 </svg></a><a href="https://Nexus" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:53px;height:53px;padding:2px;margin:5px;color:#f7f9fa;border-radius:35%;background-color:#0d2744;"><svg class="niftybutton-instagram" style="display:block;fill:currentColor" data-donate="true" data-tag="ins" data-name="Instagram" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Instagram social icon</title>
@@ -54,3 +44,5 @@
 </svg></a><a href="https://Nexus" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:53px;height:53px;padding:2px;margin:5px;color:#f7f9fa;border-radius:35%;background-color:#0d2744;"><svg class="niftybutton-snapchat" style="display:block;fill:currentColor" data-donate="true" data-tag="snc" data-name="Snapchat" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Snapchat social icon</title>
     <path d="M169.12 150.87c-8.45 18.92-5.11 52.83-3.76 76.54-9.12 5.05-20.84-3.82-27.47-3.82-6.9 0-15.14 4.53-16.43 11.29-.93 4.87 1.25 11.97 16.91 18.15 6.05 2.39 20.46 5.21 23.79 13.07 4.69 11.04-24.08 61.99-69.24 69.43-3.53.58-6.05 3.73-5.86 7.31.79 13.73 31.57 19.11 45.21 21.22 1.39 1.89 2.52 9.86 4.31 15.92.8 2.72 2.87 5.97 8.19 5.97 6.94 0 18.47-5.35 38.55-2.03 19.68 3.28 38.18 31.19 73.71 31.19 33.02 0 52.71-28.03 71.66-31.19 10.97-1.82 20.39-1.24 30.92.82 7.25 1.42 13.76 2.21 15.83-4.91 1.82-6.15 2.93-13.97 4.29-15.81 13.52-2.1 44.43-7.46 45.21-21.19.2-3.58-2.32-6.72-5.86-7.31-44.41-7.32-74.04-58.12-69.24-69.43 3.32-7.84 17.63-10.63 23.79-13.07 11.46-4.52 17.21-10.08 17.08-16.52-.15-8.24-10.07-13.15-17.36-13.15-7.42 0-18.08 8.79-26.71 4.03 1.35-23.91 4.67-57.66-3.76-76.56-15.98-35.8-51.53-53.91-87.07-53.91-35.3-.01-70.59 17.85-86.69 53.96z"></path>
 </svg></a></div>
+    </body>
+</html>
