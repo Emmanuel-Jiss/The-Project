@@ -28,11 +28,15 @@ body {
     width: 1000px;
     margin: 0 auto;
     padding: 0 8px;
+    height: 100%;
+    list-style: none;
 }
 
 nav .desktop-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
 
 }
 
