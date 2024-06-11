@@ -52,6 +52,17 @@ nav .desktop-nav li a:hover{
     opacity: 1;
 }
 
+.logo{
+    background: url('../media/svg/home.svg');
+    color: white;
+    display: block;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    background-size: 18;
+    background-repeat: no-repeat;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
