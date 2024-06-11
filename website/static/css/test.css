@@ -63,6 +63,16 @@ nav .desktop-nav li a:hover{
     background-repeat: no-repeat;
 }
 
+.search {
+    background: url('../media/svg/search.svg');
+    color: white;
+    display: block;
+    background-position: center;
+    height: 44px;
+    width: 15px;
+    background-repeat: no-repeat;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
