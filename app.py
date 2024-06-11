@@ -26,6 +26,10 @@ def about():
 def account():
     return render_template('account.html')
 
+@app.route('/test')
+def test():
+    return render_template('booking-test.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
