@@ -6,6 +6,8 @@ def submit_booking(email, pitch, start, end, amenities):
     Booking.append(end)
     Booking.append(amenities)
 
+
+
 Account = []
 def submit_account(username, email, password1,password2):
     Account.append(username)
