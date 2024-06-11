@@ -1,9 +1,10 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    background-color: ##fffbfe;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Header styles */
@@ -42,6 +43,21 @@ header nav ul li a.active,
 header nav ul li a:hover {
     background-color: #575757;
     border-radius: 5px;
+}
+
+ul li a, ul li img {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li.logo img {
+    height: 30px;
+    width: auto;
+    padding: 10px;
+    margin: 0 10px;
 }
 
 /* Slideshow styles */
