@@ -28,10 +28,11 @@ ul li a, ul li img {
     text-decoration: none;
 }
 
-ul li img {
+ul li.logo img {
     height: 30px;
     width: auto;
-    padding: 5px 10px;
+    padding: 10px;
+    margin: 0 10px;
 }
 
 ul li a:hover {
