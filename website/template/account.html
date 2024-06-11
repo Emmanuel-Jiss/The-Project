@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Account login/sign up</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
 </head>
-<body>
+<body class="account-page">
     <ul>
         <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
         <li><a href="{{ url_for('account') }}">Account</a></li>
@@ -13,7 +13,7 @@
         <li><a href="{{ url_for('contact') }}">Contact</a></li>
         <li><a href="{{ url_for('about') }}">About</a></li>
     </ul>
-    <form>
+    <form class="container">
         <label for="username">Username</label>
         <input type="text" id="username" name="username" required><br>
 
@@ -29,7 +29,7 @@
         <button type="submit" class="button-group" id="submit_account">Submit</button>
         <style>
             body {
-                background-image: url("{{ url_for('static', filename='download.jpg'}}")
+                background-image: url("{{ url_for('static', filename='/media/download.jpg') }}")
             }
         </style>
     </form>
