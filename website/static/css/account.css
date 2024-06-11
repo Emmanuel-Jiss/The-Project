@@ -39,5 +39,10 @@ li a:hover:not(.active) {
 background-color: black;
 color: white;
 width: 100;
-margin: auto;
+border: 5px solid;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+p 80adding: 10px;
 }
