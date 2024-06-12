@@ -11,7 +11,7 @@
 </head>
 <body>
     <ul>
-      <li><a class="active" href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('index') }}">Home</a></li>
       <li><a href="{{ url_for('booking') }}">Booking</a></li>
       <li><a href="{{ url_for('contact') }}">Contact</a></li>
       <li><a href="{{ url_for('about') }}">About</a></li>
@@ -31,6 +31,9 @@
 
             <label for="end">End Time</label>
             <input type="time" id="end" name="end" required><br>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required><br>
 
             <label for="amenities">Amenities</label>
             <input type="text" id="amenities" name="amenities" required><br>
