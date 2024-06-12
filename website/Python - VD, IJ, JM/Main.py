@@ -1,11 +1,12 @@
 Booking = []
 
 
-def submit_booking(email, pitch, start, end, amenities):
+def submit_booking(email, pitch, start, end, date, amenities):
     Booking.append(email)
     Booking.append(pitch)
     Booking.append(start)
     Booking.append(end)
+    Booking.append(date)
     Booking.append(amenities)
 
 
