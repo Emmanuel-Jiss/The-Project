@@ -48,6 +48,7 @@ nav .desktop-nav li a{
     font-size: 14px;
     opacity: 0.8;
     transition: opacity 400ms
+    list-style: none;
 }
 
 nav .desktop-nav li a:hover{
