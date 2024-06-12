@@ -102,6 +102,27 @@ nav .desktop-nav li a:hover{
     border: 0;
     outline: none;
     background: transparent;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-color: #fff;
+    font-size: 17px
+}
+
+.search-container .link-close {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    opacity: 0.5;
+}
+
+.link-close {
+    background: url('../media/svg/close.svg');
+    display: block;
+    background-position: center;
+    height: 30px;
+    width: 30px;
+    background-size: 18;
+    background-repeat: no-repeat;
 }
 
 h1 {
