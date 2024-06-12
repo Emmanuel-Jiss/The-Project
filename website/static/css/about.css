@@ -78,12 +78,12 @@ h1 {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 1px solid #333;
+    background-color: #333;
 }
 
 .tab button {
-    background-color: inherit;
+    background-color: #333;
     float: left;
     border: none;
     outline: none;
@@ -91,10 +91,11 @@ h1 {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    color: white;
 }
 
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #111;
 }
 
 .tab button.active {
@@ -104,7 +105,8 @@ h1 {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 2px solid #ccc;
+    border: 2px solid #333;
     border-top: none;
     color: white;
+    background-color: #333;
 }
