@@ -38,7 +38,7 @@ nav .desktop-nav{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
+    list-style: none;
 }
 
 nav .desktop-nav li a{
