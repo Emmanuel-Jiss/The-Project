@@ -79,6 +79,7 @@ h1 {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    color: white;
 }
 
 .tab button {
@@ -105,4 +106,5 @@ h1 {
     padding: 6px 12px;
     border: 2px solid #ccc;
     border-top: none;
+    color: white;
 }
