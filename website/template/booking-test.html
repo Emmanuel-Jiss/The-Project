@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="nav-container">
-        <nav>
+        <nav style="display: none">
             <ul class="desktop-nav">
                 <li><a href="{{ url_for('index') }}" class="logo"></a></li>
                 <li><a href="{{ url_for('booking') }}">Booking</a></li>
@@ -24,7 +24,27 @@
             </ul>
         </nav>
     </div>
+    <div class="search-container hide">
+        <div class="link-search">
+            <div class="search-bar">
+                <form action="" placeholder="Search Nexus">
+                    <input type="text">
+                </form>
+            </div>
+            <div class="link-close"></div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <div class="overlay show"></div>
 <div class="box">
         <form>
             <div class="inputBox">
