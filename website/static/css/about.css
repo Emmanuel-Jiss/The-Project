@@ -1,5 +1,10 @@
-*,*::after,*::before { margin: 0; padding: 0; box-sizing: border-box;}
-
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -9,6 +14,7 @@ body {
     background-size: cover;
 }
 
+/* Header styles */
 .nav-container{
     background: rgba(0, 0, 0, 0.8);
     height: 44px;
