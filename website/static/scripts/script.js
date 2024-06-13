@@ -24,3 +24,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//- Using a function pointer:
+document.getElementById("clickMe").onclick = Confirm;
+function doConfirm {
+    document.getElementById("snow").style = "display: show;";
+}
