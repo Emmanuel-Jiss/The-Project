@@ -7,6 +7,8 @@ PASSWORD = ''
 HOST = 'localhost'
 DB_NAME = 'vidhur'
 
+#test#
+
 # Initialize the Flask application and specify the template and static folders
 app = Flask(__name__, template_folder='website/template', static_folder='website/static')
 
