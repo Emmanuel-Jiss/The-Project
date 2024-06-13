@@ -87,6 +87,7 @@ def enter_name():
         db.session.rollback()
         print('An error occurred while booking the class.')
 
+
     # Redirect to the booking page after form submission
     return redirect(url_for('booking'))
 
