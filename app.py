@@ -90,7 +90,7 @@ def enter_name():
 
     # Redirect to the booking page after form submission
     return redirect(url_for('booking'))
-
+#test
 
 # Run the Flask application in debug mode
 if __name__ == '__main__':
