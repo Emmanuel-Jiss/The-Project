@@ -23,8 +23,36 @@
         </ul>
     </nav>
 </div>
-<div id="accountform" class="login">
+    <div class="form-popup">
+        <div class="form-box">
+        <div class="form-details">
+            <H2>Welcome Back</H2>
+            <p>Please login with your email and password</p>
+        </div>
+        <div class="form-content">
+            <h2>Login</h2>
+            <form>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="input-field">
+                    <label for="password1">Password</label>
+                    <input type="password" id="password1" name="password1" required><br>
+                </div>
+                <a href="#" class="forgot-pass">Forgot Password?</a>
+                <button type="submit" class="button-group" id="submit_account" onclick="doConfirm();">Submit</button>
+            </form>
+            <div class="bottom-link">
+                Don't have an account?
+                <a href="#">Sign Up</a>
+        </div>
+    </div>
+</div>
+
+<!--<div id="accountform" class="login">
     <div class="login-photo">
+        <H2>Welcome Back</H2>
         <img src="https://www.intego.com/mac-security-blog/wp-content/uploads/2021/12/2fa-hero.png">
     </div>
     <form class="container">
